@@ -1,0 +1,155 @@
+body {
+  background: url(./Interior\ Design\ Landing\ Page/retro-living-room-interior-design.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+}
+.upper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.logo {
+  margin-right: 370px;
+  font-size: 25px;
+}
+.list-items {
+  display: flex;
+  list-style: none;
+  color: #ffffff;
+  font-weight: 500;
+  align-items: baseline;
+}
+.list-items::after {
+  content: "";
+  background: #ffffff;
+  position: absolute;
+  top: -280px;
+  left: 1040px;
+  width: 2px;
+  height: 800px;
+  transform: rotate(90deg);
+}
+.list-items li {
+  margin-left: 70px;
+  cursor: pointer;
+}
+.call {
+  position: relative;
+  right: 60px;
+  top: -13px;
+}
+.list-items li img {
+  height: 24px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(2%)
+    hue-rotate(299deg) brightness(108%) contrast(100%);
+}
+
+.left-content {
+  width: 700px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.heading {
+  font-size: 35px;
+}
+button {
+  padding: 17px 34px;
+  border-radius: 35px;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.puzzle {
+  background-color: #ffffff;
+  opacity: 15%;
+  padding: 25px 28px;
+  width: 250px;
+  height: 100px;
+  position: relative;
+  left: 1100px;
+  bottom: 300px;
+}
+
+.con1 {
+  position: relative;
+  left: 1130px;
+  bottom: 430px;
+  width: 250px;
+  height: 100px;
+}
+.con1::after {
+  content: "";
+  background: #ffffff;
+  position: absolute;
+  top: 130px;
+  left: 190px;
+  width: 1px;
+  height: 90px;
+}
+.dot {
+  position: absolute;
+  top: 310px;
+  left: 120px;
+  height: 16px;
+  width: 16px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+.con1 img {
+  height: 30px;
+  background-color: #ffffff;
+  padding: 13px 42px;
+  border-radius: 35px;
+}
+.idea {
+  background-color: #ffffff;
+  opacity: 15%;
+  padding: 38px 28px;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  right: 350px;
+  bottom: 120px;
+}
+.con2 {
+  position: absolute;
+  right: 380px;
+  bottom: 175px;
+  width: 250px;
+  height: 100px;
+}
+.con2::after {
+  content: "";
+  background: #ffffff;
+  position: absolute;
+  bottom: -10px;
+  left: 326px;
+  width: 1px;
+  height: 90px;
+  transform: rotate(90deg);
+}
+.dot2 {
+  position: absolute;
+  top: -35px;
+  left: 431px;
+  height: 16px;
+  width: 16px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+.con2 img {
+  height: 30px;
+  background-color: #ffffff;
+  padding: 13px 42px;
+  border-radius: 35px;
+}
